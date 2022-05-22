@@ -1,0 +1,8 @@
+{
+  "extends": "@b64viewer/config/ts/node.json",
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules"]
+}

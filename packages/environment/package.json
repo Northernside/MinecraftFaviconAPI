@@ -1,0 +1,13 @@
+{
+  "name": "@b64viewer/environment",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsc -b -w"
+  },
+  "devDependencies": {
+    "@b64viewer/config": "workspace:*"
+  },
+  "license": "ISC"
+}

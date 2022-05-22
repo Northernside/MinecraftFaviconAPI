@@ -1,0 +1,20 @@
+{
+  "name": "@b64viewer/backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "deploy": "node dist/index.js",
+    "build:deploy": "pnpm run build && pnpm run deploy",
+    "dev": "nodemon --exec pnpm run build:deploy"
+  },
+  "dependencies": {
+    "@b64viewer/api": "workspace:*"
+  },
+  "devDependencies": {
+    "@b64viewer/config": "workspace:*",
+    "nodemon": "^2.0.15"
+  },
+  "license": "GPL-3.0"
+}

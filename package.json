@@ -1,0 +1,24 @@
+{
+  "name": "b64viewer",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "turbo run lint",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "deploy": "turbo run deploy",
+    "docker:start": "docker-compose up --build",
+    "docker:deploy": "docker-compose up --build -d",
+    "docker:stop": "docker-compose down"
+  },
+  "packageManager": "pnpm@6.29.1",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "turbo": "^1.1.2",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "minecraft-server-util": "^5.2.9"
+  }
+}
